@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/buscador.css">
+    <link rel="stylesheet" href="css/headerBuscador.css">
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <title>buscador</title>
+</head>
+<body>
+    <header>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="vid/evelogin.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="fondo"></div>
+                            <div class="logo">
+                              <div class="mouse">
+                                RecoAnime
+                               </div>
+                               <div class="figura3">
+                                   <span class="iconify" data-icon="vscode-icons:file-type-go-gopher" style="color: #6ad7e5;" data-width="70" data-height="70"></span>
+                               </div>
+                           </div>
+                           <form action="login.html" method="POST" class="my-3">
+                               <button class="figuraH"> 
+                                   <span class="iconify" data-icon="ant-design:home-filled" style="color: #FFC5D3;" data-width="40" data-height="40"></span>
+                               </button>
+                           </form>
+                           <form action="buscador.html" method="POST" class="my-3">
+                               <button class="cajaAni"> 
+                                   <div class="textoBus">
+                                       ¡Recomienda un Anime!
+                                   </div>
+                               </button>
+                           </form>
+                           <form action="buscador.html" method="POST" class="my-3">
+                               <button class="cajaQue"> 
+                                   <div class="textoBus2">
+                                       ¿Que es RecoAnime?
+                                   </div>
+                               </button>
+                           </form>
+                           <div class="beta">
+                               Alpha
+                           </div>
+                           <form action="buscador.html" method="POST" class="my-3">
+                               <button class="cajaRe"> 
+                                   <div class="textoBus3">
+                                       Recomendadores
+                                   </div>
+                               </button>
+                           </form>
+
+
+                            <div class="col-md-6 mx-auto mt-5">
+                                <img src="img/logo1.jpg" style="width: 400px;" class="animate__animated animate__fadeInRight">
+                                <form action="index.php" method="POST" class="my-3">
+                                    <div class="input-group mb-3 animate__animated animate__fadeInLeft">
+                                        <input type="text" name="buscador" class="form-control" placeholder="Busca un anime" onKeypress="validacion()">
+                                        <button class="btn btn-success">Buscar</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">
+                                    <div class="font1">
+                                        Categorias
+                                    </div>
+                                </button>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <a href="#SJ">Shonen-Jump</a>
+                                  <a href="#Mist">Misterio</a>
+                                  <a href="#Vamp">Vampiros</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script>
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+         var i;
+            for (i = 0; i < dropdowns.length; i++) {
+             var openDropdown = dropdowns[i];
+               if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+               }
+            }
+        }
+     }
+    </script>
+    
+</body>
+</html>

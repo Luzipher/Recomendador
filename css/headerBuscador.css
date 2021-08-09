@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Mouse Memoirs';
+    src: url('font/MouseMemoirs-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+.mouse{
+    font-family: 'Mouse Memoirs';
+    font-size: 1em;
+}
+
+.fondo{
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: -2px;
+    top: -230px;
+    background: #FFC5D3;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.logo{
+    position: absolute;
+    width: 196px;
+    height: 63px;
+    left: 1px;
+    top: -230px;
+    font-family: Mouse Memoirs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 73px;
+    color: #6AD7E5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 2px rgba(0, 0, 0 , 1);
+}
+.figura3{
+    position: absolute;
+    width: 79px;
+    height: 69px;
+    left: 200px;
+    top: -8px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.figuraH{
+    position: absolute;
+    width: 75px;
+    height: 60px;
+    left: 300px;
+    top: -225px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:  #6AD7E5;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cajaAni{
+    position: absolute;
+    width: 280px;
+    height: 40px;
+    left: 408px;
+    top: -215px;
+    bottom: 93.95%;
+    background:  #6AD7E5;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.cajaQue{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 750px;
+    top: -215px;
+    bottom: 93.95%;
+    background:  #6AD7E5;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.cajaRe{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 960px;
+    top: -215px;
+    bottom: 93.95%;
+    background:  #6AD7E5;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.textoBus{
+    position: absolute;
+    left: 15px;
+    top: -4px;
+    bottom: 93.95%;
+    font-family: Mouse Memoirs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 41px;
+    color: #FFC5D3;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 2px rgba(0, 0, 0 , 1);
+}
+.textoBus2{
+    position: absolute;
+    left: 8px;
+    top: -2px;
+    bottom: 93.95%;
+    font-family: Mouse Memoirs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 41px;
+    color: #FFC5D3;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 2px rgba(0, 0, 0 , 1);
+}
+.textoBus3{
+    position: absolute;
+    left: 20px;
+    top: -2px;
+    bottom: 93.95%;
+    font-family: Mouse Memoirs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 41px;
+    color: #FFC5D3;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 2px rgba(0, 0, 0 , 1);
+}
+
+
+
+.beta{
+    position: absolute;
+    width: 99px;
+    height: 59px;
+    left: 1170px;
+    top: -235px;
+    font-family: Mouse Memoirs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 73px;
+    color: #6AD7E5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 2px rgba(0, 0, 0 , 1);
+}
