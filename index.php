@@ -113,7 +113,6 @@ $buscador = isset($_POST['buscador']) ? $_POST['buscador'] : '';
         <?php
          $con = new SQLite3("animes.db") or die("problemas para conectar");
          $cs = $con -> query("SELECT * FROM vista1 WHERE comodin LIKE '%$buscador%'");
-
           while($res = $cs -> fetchArray()) {
             $numero= $res['numero'];
             $nombre = $res['nombre'];

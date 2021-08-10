@@ -61,8 +61,6 @@
                                    </div>
                                </button>
                            </form>
-
-
                             <div class="col-md-6 mx-auto mt-5">
                                 <img src="img/logo1.jpg" style="width: 400px;" class="animate__animated animate__fadeInRight">
                                 <form action="index.php" method="POST" class="my-3">
@@ -79,7 +77,15 @@
                                     </div>
                                 </button>
                                 <div id="myDropdown" class="dropdown-content">
-                                  <a href="#SJ">Shonen-Jump</a>
+                                  <a href="#SJ">
+                                    <form action="index.php" method="POST" class="my-3">
+                                        <button class="estiloBoton">
+                                            <div class="font3" name="mrk1" onKeypress="validacion()">
+                                                Shonen-Jump
+                                            </div>
+                                        </button>  
+                                    </form>
+                                  </a>
                                   <a href="#Mist">Misterio</a>
                                   <a href="#Vamp">Vampiros</a>
                                 </div>

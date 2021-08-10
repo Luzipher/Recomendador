@@ -22,7 +22,6 @@
     position: absolute;
     left: 45px;
     top: 8px;
- 
     font-family: Mouse Memoirs;
     font-style: normal;
     font-weight: normal;
@@ -31,6 +30,20 @@
     color: #FFC5D3;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    -webkit-text-stroke: 2px rgba(0, 0, 0 , 1);
+}
+.font3{
+    font-family: Mouse Memoirs;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 41px;
+    color: #6AD7E5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 2px rgba(0, 0, 0 , 1);
+}
+.estiloBoton{
+    background: #FFC5D3;
+    border-radius: 5px;
 }
 .dropbtn {
     position: absolute;
@@ -48,7 +61,6 @@
   
 .dropbtn:hover, .dropbtn:focus {
     background-color: pink;
-
 }
   
 .dropdown {
