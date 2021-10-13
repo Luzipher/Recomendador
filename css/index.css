@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.fondo{
+   width: 960px;
+   height: 540px;
+   background-image: url('img/fondo1.jpg');
+   -webkit-background-size: cover;
+   -moz-backgrund-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   margin: 150px auto; 
+}
+.cajaN{
+    font-family: forte;
+   position: absolute;
+   margin-top: 5px;
+   width: 265px;
+   text-align: right;
+   font-weight: bold;
+   font-size: 1.8em;
+   color:gold;
+}
+.cajaC{
+    font-family: forte;
+   position: absolute;
+   margin-top: 53px;
+   width: 330px;
+   text-align: right;
+   font-weight: bold;
+   font-size: 1.8em;
+   color:gold;
+}
+.cajaE{
+    font-family: forte;
+   position: absolute;
+   margin-top: 6px;
+   width: 860px;
+   text-align: right;
+   font-weight: bold;
+   font-size: 1.8em;
+   color:gold;
+}
+.cajaT{
+    font-family: forte;
+   position: absolute;
+   margin-top: 45px;
+   width: 765px;
+   text-align: right;
+   font-weight: bold;
+   font-size: 1.8em;
+   color:gold;
+}
+.cajaR{
+    font-family: forte;
+   position: absolute;
+   margin-top: 80px;
+   width: 820px;
+   text-align: right;
+   font-weight: bold;
+   font-size: 1.8em;
+   color:gold;
+}
+.cajaES{
+    font-family: forte;
+   position: absolute;
+   margin-top: 494px;
+   width: 935px;
+   text-align: right;
+   font-weight: bold;
+   font-size: 1.8em;
+   color:gold;
+}
+.cajaS{
+    font-family: calibri;
+   position: absolute;
+   margin-top: 240px;
+   width: 450px;
+   text-align: left;
+   font-weight: bold;
+   font-size: 1.1em;
+   color:white;
+}
+.cajaIm{
+    position: absolute;
+   margin-top: 180px;
+   margin-left: 480px;
+}
